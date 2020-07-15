@@ -9,10 +9,10 @@ class ProfileUserview {
         <p id="seguidores">  Seguidores: ${usuario.seguidores}</p>
         <p id="seguindo"> Seguindo: ${usuario.seguindo}</p>
         <p id="bio"> BIO: ${usuario.biografia}</p>
-        <a id="perfil" href="${usuario.repositorio}">Perfil Github</a>
+        <a id="perfil" href="${usuario.repositorio}">Perfil no Github</a>
         <p id="repositorio"> 
         <ul>
-            <li> Repositorios: ${usuario.pagina}</li>
+            <li> Total Repositorios: ${usuario.pagina}</li>
            
         </ul>
         </p>
